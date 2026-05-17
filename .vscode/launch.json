@@ -16,6 +16,15 @@
         "src/static/*"
       ],
       "jinja": true
+    },
+    {
+      "name": "Run Pytest",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["-q"],
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
     }
   ]
 }
